@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: aqua;
+}
+h1{
+    background-color: brown;
+    padding: 12px;
+}
+a.form{
+    text-align: center;
+}
+a.button{
+    display: inline-block;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.submitButton{
+    display: flex ;
+    justify-content: center;
+  }

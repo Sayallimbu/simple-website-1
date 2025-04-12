@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: rgb(57, 161, 161);
+}
+.home{
+    overflow: hidden;
+    background-color: rgb(1, 3, 3);
+    padding: 12px;
+   color: aliceblue;
+
+}
+.home h1:hover{
+background-color: rgb(205, 217, 223);
+/* Page content */
+}
+.paragraph {
+   background-color: aliceblue;
+}
+p{
+    color: rgb(41, 7, 235);
+    text-align: left;
+    padding: 12px;
+}
