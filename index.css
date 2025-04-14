@@ -9,7 +9,6 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #21c0c0;
 }
 /* Navigation bar styles */
 .pc_nav {
@@ -93,7 +92,23 @@ a.button {
 a.button:hover {
   background-color: #0056b3;
 }
+.body_section{
+  background-color: #111111;
+  height: 500px;
+  text-align: left;
+  padding: 18px;
+  display: flex;
 
+}
+.blur{
+}
+.body_section img{
+  height: 200px;
+border-radius: 10%;
+}
+.intro{
+  margin-left: 20px;
+}
 @media all and (max-width: 710px){
   .pc_nav{
     display: none;
@@ -102,12 +117,18 @@ a.button:hover {
     display: flex;
 
   }
+  .body_section h1{
+    display: none;
+  }
+  .body_section p{
+    display: none;
+  }
 }
 footer {
+  
   background-color: #222;
   color: #fff;
   text-align: center;
   padding: 20px 10px;
   position: relative;
-
 }
