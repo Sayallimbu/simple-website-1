@@ -93,14 +93,18 @@ a.button:hover {
   background-color: #0056b3;
 }
 .body_section{
-  background-color: #111111;
-  height: 500px;
+  border: 3px solid red;
+  /* background-image: url("https://t3.ftcdn.net/jpg/04/15/87/76/360_F_415877698_c1VY6BMnUbNxh7Or80VDZAWng4UoGfWi.jpg"); */
+  background-color:#333 ;
   text-align: left;
   padding: 18px;
-  display: flex;
+display: grid;
+height: 300px;
+grid-template-columns:repeat(auto, 1fr);
 
-}
-.blur{
+justify-items: end;
+grid-auto-flow: column;
+
 }
 .body_section img{
   height: 200px;
@@ -109,6 +113,19 @@ border-radius: 10%;
 .intro{
   margin-left: 20px;
 }
+.portfolio{
+  height: 500px;
+  background-color: #080808;
+
+}
+.portfolio h1{
+  text-align: center;
+  padding-top: 20px;
+}
+.port_content img{
+height: 200px;
+border-radius: 10%;
+}
 @media all and (max-width: 710px){
   .pc_nav{
     display: none;
@@ -116,12 +133,6 @@ border-radius: 10%;
   .mobile_nav{
     display: flex;
 
-  }
-  .body_section h1{
-    display: none;
-  }
-  .body_section p{
-    display: none;
   }
 }
 footer {
