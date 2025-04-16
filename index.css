@@ -28,12 +28,38 @@ body {
  padding-left: 20px;
   overflow: hidden;
 }
+.bghero{
+  font-size: 250px;
+  position: absolute;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/16:9/w_1920%2Cc_limit/gettyimages-1146431497.jpg");
+background-repeat: no-repeat;
+filter: brightness(60%);
+background-size: cover;
+z-index: -1;
+}
+/* .bghero{
+  border: 3px solid red;
+  color: transparent;
+  -webkit-text-stroke: 1px #f7f6f6;
+  font-size: 250px;
+  position: absolute;
+  display: flex;
+  
+  justify-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+} */
 .hero{
-  background-image: url("https://images.unsplash.com/photo-1678203699263-917199c725b2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVybyUyMGltYWdlfGVufDB8fDB8fHww");
+  /* background-image: url("https://images.unsplash.com/photo-1678203699263-917199c725b2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVybyUyMGltYWdlfGVufDB8fDB8fHww"); */
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100%;
+  /* background-color:#080808; */
 
   color: #fff;
 }
