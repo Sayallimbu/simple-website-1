@@ -15,7 +15,7 @@ body {
 .pc_nav {
   display: flex;
   justify-content: center;
-  background-color: #333;
+  background-color: rgba(51, 51, 51, 0.);
   height: 58px;
   overflow: hidden;
   position: fixed;
@@ -25,26 +25,35 @@ body {
 
 .mobile_nav {
   display: none;
-  justify-content: start;
-  align-items: center;
-  background-color: #333;
+  justify-content: space-between;
+  background-color: rgba(51, 51, 51, 0.);
   height: 58px;
- padding-left: 20px;
   overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 20px;
+  align-items: center;
+
 }
 .bghero{
   font-size: 250px;
   position: absolute;
   display: flex;
   height: 100vh;
-  width: 100vw;
-  background-image: url("https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/16:9/w_1920%2Cc_limit/gettyimages-1146431497.jpg");
+  width: 100%;
+  /* background-image: "background_video.mp4"; */
 background-repeat: no-repeat;
 filter: brightness(60%);
 background-size: cover;
 z-index: -1;
-}
 
+}
+.bghero video{
+object-fit: cover;
+width: 100%;
+/* height: 100vh; */
+}
 .hero{
   background-size: cover;
   background-position: center;
@@ -75,7 +84,7 @@ z-index: -1;
   font-weight: bold;
 }
 .topic a:hover {
-  background-color: #575757;
+  background-color: #ffffff59;
 }
 /* Page content */
 .content {
@@ -85,7 +94,7 @@ justify-content: center;
 align-items: center;
   text-align: center;
   padding: 50px;
-  height: 800px; 
+  height: 100vh; 
 }
 h1 {  
   color: #f7f6f6;
@@ -155,9 +164,12 @@ margin-bottom: 20px;
   width: 100%;
   padding:30px 0px ;
   text-align: center;
+  transition: all 0.3s ease;
 }
 .contact a:hover{
   background-color: #003369;
+  transform: scale(1.03);
+
 }
 .contact a:active{
   background-color: #00438a;
